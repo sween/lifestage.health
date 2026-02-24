@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sween.github.io/lifestage.health/sitemap-index.xml

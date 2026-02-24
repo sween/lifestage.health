@@ -1,0 +1,33 @@
+{
+  "$ref": "#/definitions/category",
+  "definitions": {
+    "category": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "coverSVG": {
+          "type": "string"
+        },
+        "socialImage": {
+          "type": "string"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "coverSVG",
+        "socialImage"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
